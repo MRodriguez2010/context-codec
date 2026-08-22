@@ -11,6 +11,8 @@
 
 **Reduce token burn by 60-80% on long-running OpenClaw sessions.**
 
+> **Prototype status:** the included harness validates digest/metrics mechanics using simulated counts. The savings figures below are projections, not independent real-session benchmarks. Read [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) for evidence, privacy, concurrency, and licensing limits.
+
 Context Codec prevents context bloat at the source — instead of compressing *after* your context window fills up, it maintains a living compressed state that grows logarithmically, not linearly.
 
 [Installation](#installation) · [How It Works](#how-it-works) · [Commands](#commands) · [Benchmarks](#benchmarks) · [FAQ](#faq)
